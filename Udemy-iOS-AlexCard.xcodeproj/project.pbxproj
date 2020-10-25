@@ -11,6 +11,8 @@
 		FA8DB5E02545DB48003C2C2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DB5DF2545DB48003C2C2C /* ContentView.swift */; };
 		FA8DB5E22545DB49003C2C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8DB5E12545DB49003C2C2C /* Assets.xcassets */; };
 		FA8DB5E52545DB49003C2C2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8DB5E42545DB49003C2C2C /* Preview Assets.xcassets */; };
+		FA8DB5EF2545DF6F003C2C2C /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8DB5EE2545DF6F003C2C2C /* Pacifico-Regular.ttf */; };
+		FA8DB5F22545E60C003C2C2C /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DB5F12545E60C003C2C2C /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		FA8DB5E12545DB49003C2C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA8DB5E42545DB49003C2C2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA8DB5E62545DB49003C2C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8DB5EE2545DF6F003C2C2C /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		FA8DB5F12545E60C003C2C2C /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,13 @@
 		FA8DB5DC2545DB48003C2C2C /* Udemy-iOS-AlexCard */ = {
 			isa = PBXGroup;
 			children = (
+				FA8DB5ED2545DF57003C2C2C /* fonts */,
 				FA8DB5DD2545DB48003C2C2C /* Udemy_iOS_AlexCardApp.swift */,
 				FA8DB5DF2545DB48003C2C2C /* ContentView.swift */,
 				FA8DB5E12545DB49003C2C2C /* Assets.xcassets */,
 				FA8DB5E62545DB49003C2C2C /* Info.plist */,
 				FA8DB5E32545DB49003C2C2C /* Preview Content */,
+				FA8DB5F12545E60C003C2C2C /* InfoView.swift */,
 			);
 			path = "Udemy-iOS-AlexCard";
 			sourceTree = "<group>";
@@ -67,6 +73,14 @@
 				FA8DB5E42545DB49003C2C2C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA8DB5ED2545DF57003C2C2C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA8DB5EE2545DF6F003C2C2C /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8DB5EF2545DF6F003C2C2C /* Pacifico-Regular.ttf in Resources */,
 				FA8DB5E52545DB49003C2C2C /* Preview Assets.xcassets in Resources */,
 				FA8DB5E22545DB49003C2C2C /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA8DB5E02545DB48003C2C2C /* ContentView.swift in Sources */,
+				FA8DB5F22545E60C003C2C2C /* InfoView.swift in Sources */,
 				FA8DB5DE2545DB48003C2C2C /* Udemy_iOS_AlexCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
